@@ -1,12 +1,24 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
 
+ body {
+     font-family: 'Open Sans', sans-serif;
+ }
+
+.title {
+    text-align: center;
+}
+
 .instructions {
     display: block;
     margin: 20px;
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.2em;
+
+}
+
+.instructions p {
+    font-size: 1em;
 }
 
 .centered {
